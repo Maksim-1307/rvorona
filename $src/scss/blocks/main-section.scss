@@ -1,0 +1,13 @@
+.main-seciton{
+    .container{
+        padding-top: 36px !important;
+        padding-bottom: 40px !important;
+    }
+    &__content{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 500px;
+    }
+}

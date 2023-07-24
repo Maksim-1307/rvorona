@@ -1,1 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,700;1,800&display=swap');
+
+//modules
+@import "zeroing-v1.1.scss";
+@import "properties.scss";
+@import "basic.scss";
+
+//blocks
+@import "blocks/burger-button.scss";
+@import "blocks/contact-icons.scss";
+
+//sections
+@import "blocks/header.scss";
+
+@import "blocks/logo.scss";
+@import "blocks/nav.scss";
+@import "blocks/main-section.scss";
+@import "blocks/btn-1.scss";
+@import "blocks/scroller.scss";
+@import "blocks/scroll-visual.scss";
+@import "blocks/photo-section.scss";
+@import "blocks/sessions-section.scss";
+@import "blocks/camp-session.scss";
+@import "blocks/btn-2.scss";
+@import "blocks/btn-3.scss";
+@import "blocks/lottery-section.scss";

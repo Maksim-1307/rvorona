@@ -1,0 +1,15 @@
+.btn-2{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 5px 9px;
+    display: inline-block;
+    color: $dark-color;
+    border-radius: 10px;
+    border: 2.5px solid $theme-color;
+    transition: .3s;
+    &:hover{
+        background-color: $theme-color;
+        color: white ;
+    }
+}

@@ -1,0 +1,36 @@
+.nav{
+    background-color: $dark-color;
+    color: white;
+    .container {    
+        display: flex;
+        overflow: scroll;
+        @media screen and (min-width: 600px){
+            justify-content: center;
+        }
+    }
+    .content{
+        display: flex;
+        
+    }
+    &__link{
+        color: white;
+        opacity: .8;
+        padding: 10px;
+        display: inline-block;
+        white-space: nowrap;
+        font-size: 12px;
+        font-weight: 600;
+        &:first-child{
+            padding-left: 0;
+        }
+        &:last-child {
+            padding-right: 0;
+        }
+        &--current{
+            opacity: 1;
+            padding-left: 10px !important;
+            border-bottom: 2px solid $theme-color;
+            padding-bottom: 8px;
+        } 
+    }
+}

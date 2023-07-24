@@ -1,0 +1,17 @@
+.sessions-section{
+    .container{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: grid;
+        gap: 25px;
+        @media screen and (min-width: 450px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media screen and (min-width: 650px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @media screen and (min-width: 800px) {
+            gap: 35px;
+        }
+    }
+}

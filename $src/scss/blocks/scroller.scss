@@ -1,0 +1,62 @@
+.scroller{
+    overflow: hidden;
+    &__row{
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        overflow: visible;
+    }
+    &__item{
+        border-radius: 10px;
+        min-height: 75px;
+        min-width: 112px;
+        background: #a3a3a3;
+        @media screen and (min-width: 600px) {
+            min-height: 100px;
+            min-width: 150px;
+        }
+    }
+    &__container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        transform-origin: center;
+        transform: translateY(-300px) rotate(-50deg);
+    }
+}
+
+/*
+
+block files: scroller.scss, scroller.js
+
+PUG code:
+
+.scroller
+    .scroller__container
+        .scroller__row
+            .scroller__item
+            .scroller__item
+            .scroller__item
+            .scroller__item
+            .scroller__item
+            .scroller__item
+            .scroller__item
+        .scroller__row
+            .scroller__item
+            .scroller__item
+            .scroller__item
+            .scroller__item
+            .scroller__item
+            .scroller__item
+            .scroller__item
+        .scroller__row
+            .scroller__item
+            .scroller__item
+            .scroller__item
+            .scroller__item
+            .scroller__item
+            .scroller__item
+            .scroller__item
+
+
+*/
